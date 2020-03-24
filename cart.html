@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lambert/Shop/Cart</title>
+
+    <!--google fonts-->
+    <link rel="icon" href="images/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Playball|Quicksand:700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <!--Style Css-->
+    <link rel="stylesheet" href="css/navbar.css"/>
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body class="shop-page">
+    <!-- Start Tablet Navbar -->
+    <div class="tiger-collapse">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="menu.html">Menu</a>
+        </li>
+        <li>
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="reservation.html">Reservation</a>
+        </li>
+        <li>
+          <a href="shop.html" class="active">Shop</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="journal.html">Journal</a>
+        </li>
+        <div class="clear"></div>
+      </ul>
+    </div>
+    <!-- End Tablet Navbar -->
+    <header class="header fixed">
+      <div class="header-inner">
+        <div class="lampcontainer">
+          <div class="social-nav">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-tumblr"></i>
+                </a>
+              </li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+          <div class="clear"></div>
+          <div class="main-nav">
+            <div class="logo-holder">
+              <a href="index.html">
+                <img src="images/logo.png" alt="logo-white" class="respimg logo-visp">
+                <img src="images/logo2.png" alt="logo-black" class="respimg logo-notvisp">
+              </a>
+            </div>
+            <div class="nav-holder">
+              <ul>
+                <li>
+                  <a href="index.html" >Home</a>
+                </li>
+                <li>
+                  <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="reservation.html">Reservation</a>
+                </li>
+                <li>
+                  <a href="shop.html" class="active">Shop</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                  <a href="journal.html" >Journal</a>
+                </li>
+                <div class="clear"></div>
+              </ul>
+            </div>
+            <button class="toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Slider -->
+    <div class="slider">
+      <div class="overlay"></div>
+      <div class="slide-content">
+        <h3 class="center main-text">Your Cart</h3>
+        <p class="under-text center color">Order online is easy</p>
+      </div>
+      <div class="triangle-decor">
+        <svg x="0px" y="0px" width="100%" height="15px">
+          <defs>
+            <pattern id="bottom-divider" x="0" y="0" width="15" height="15" patternUnits="userSpaceOnUse">
+              <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M7.504-0.008l7.504,7.504L7.504,15L0,7.496L7.504-0.008z"></path>
+            </pattern>
+          </defs>
+          <rect x="0" y="0" width="100%" height="15" fill="url(#bottom-divider)"></rect>
+        </svg>
+      </div>
+    </div>
+    <!-- Your Cart -->
+    <div class="cart">
+      <div class="lampcontainer">
+        <div class="row">
+          <div class="col-sm-12">
+            <table class="table table-border checkout-table">
+              <tbody>
+                <tr>
+                  <th class="hidden-xs">Item</th>
+                  <th>Description</th>
+                  <th class="hidden-xs">Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td class="hidden-xs">
+                      <a href="#"><img src="images/gallery/1.jpg" alt="" class="respimg"></a>
+                  </td>
+                  <td>
+                      <h5 class="product-name">Cake Monro</h5>
+                  </td>
+                  <td class="hidden-xs">
+                      <h5 class="order-money">$56.00</h5>
+                  </td>
+                  <td>
+                      <input type="number" name="" value="1" max="50" min="1" class="order-count">
+                  </td>
+                  <td>
+                      <h5 class="order-money">$56.00</h5>
+                  </td>
+                  <td class="pr-remove">
+                      <a href="#" title="Remove"><i class="fa fa-times"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="hidden-xs">
+                      <a href="#"><img src="images/gallery/2.jpg" alt="" class="respimg"></a>
+                  </td>
+                  <td>
+                      <h5 class="product-name">Coctail</h5>
+                  </td>
+                  <td class="hidden-xs">
+                      <h5 class="order-money">$23.00</h5>
+                  </td>
+                  <td>
+                      <input type="number" name="" value="1" max="50" min="1" class="order-count">
+                  </td>
+                  <td>
+                      <h5 class="order-money">$23.00</h5>
+                  </td>
+                  <td class="pr-remove">
+                      <a href="#" title="Remove"><i class="fa fa-times"></i></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="coupon-holder">
+            <div class="col-md-12">
+              <input type="text" name="" placeholder="Coupon code">
+              <button type="submit" class="btn-a">Apply</button>
+              <button type="submit" class="pull-right btn-uc">Update Cart</button>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-7">
+            <div class="cart-totals">
+              <h4>Cart Totals</h4>
+                <table class="table table-border checkout-table">
+                  <tbody>
+                    <tr>
+                      <th>Cart Subtotal:</th>
+                      <td>$40.00</td>
+                    </tr>
+                    <tr>
+                      <th>Shipping Total:</th>
+                      <td>$2.00</td>
+                    </tr>
+                    <tr>
+                      <th>Total:</th>
+                      <td>$42.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <button type="submit" class="btn btn-lg btn-round btn-d">Proceed to Checkout</button>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact">
+      <div class="lampcontainer">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <h3 class="center main-text">OUR TWITTER</h3>
+            <p class="twitter-text center">
+              <a href="#" class="color">about 13 days ago</a> i was looking at Check out 'Tomson – Ajax Showcase Photography WordPress Theme' on by @
+              <a href="#" class="color">
+                webredox themeforest.net/item/tomson-ph…
+              </a>
+            </p>
+            <a href="#" class="color twitter center">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <h3 class="center color f-35">Find us</h3>
+            <ul class="find center">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-tumblr"></i>
+                </a>
+              </li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <h3 class="center main-text">NEWSLETTER</h3>
+            <div class="subcribe-form">
+              <form id="subscribe">
+                <input class="enteremail" name="email" id="subscribe-email" placeholder="Your email address.." spellcheck="false" type="text">
+                <button type="submit" id="subscribe-button" class="subscribe-button">
+                  <i class="fa fa-envelope"></i>
+                </button>
+                <label for="subscribe-email" class="subscribe-message"></label>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="polit-sep">
+          <span class="polit"></span>
+        </div>
+        <ul class="footer-contacts center">
+          <li><a href="#">+7(111)123456789</a></li>
+          <li><a href="#">27th Brooklyn New York, NY 10065</a></li>
+          <li><a href="#">yourmail@domain.com</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="to-top-holder">
+      <div class="lampcontainer">
+        <p>
+          <span class="color"> © Lambert 2015 . </span> All rights reserved.
+        </p>
+        <div class="to-top">
+          <span>Back To Top </span>
+          <i class="fa fa-angle-double-up"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Cart Icon -->
+    <div class="subnav">
+      <a href="cart.html">
+        <i class="fa fa-shopping-cart cart-icon"></i>( <span>2</span> )
+      </a>
+    </div>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script defer src="js/all.js"></script>
+
+  </body>
+</html>

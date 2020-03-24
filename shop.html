@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lambert/Shop</title>
+    <!--google fonts-->
+    <link rel="icon" href="images/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playball|Quicksand:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <!--Style Css-->
+    <link rel="stylesheet" href="css/navbar.css"/>
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="css/all.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body class="shop-page">
+    <!-- Start Tablet Navbar -->
+    <div class="tiger-collapse">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="menu.html">Menu</a>
+        </li>
+        <li>
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="reservation.html">Reservation</a>
+        </li>
+        <li>
+          <a href="shop.html" class="active">Shop</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="journal.html">Journal</a>
+        </li>
+        <div class="clear"></div>
+      </ul>
+    </div>
+    <!-- End Tablet Navbar -->
+    <header class="header fixed">
+      <div class="header-inner">
+        <div class="lampcontainer">
+          <div class="social-nav">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-tumblr"></i>
+                </a>
+              </li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+          <div class="clear"></div>
+          <div class="main-nav">
+            <div class="logo-holder">
+              <a href="index.html">
+                <img src="images/logo.png" alt="logo-white" class="respimg logo-visp">
+                <img src="images/logo2.png" alt="logo-black" class="respimg logo-notvisp">
+              </a>
+            </div>
+            <div class="nav-holder">
+              <ul>
+                <li>
+                  <a href="index.html" >Home</a>
+                </li>
+                <li>
+                  <a href="menu.html">Menu</a>
+                </li>
+                <li>
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="reservation.html">Reservation</a>
+                </li>
+                <li>
+                  <a href="shop.html" class="active">Shop</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                  <a href="journal.html" >Journal</a>
+                </li>
+                <div class="clear"></div>
+              </ul>
+            </div>
+            <button class="toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Slider -->
+    <div class="slider">
+      <div class="overlay"></div>
+      <div class="slide-content">
+        <h3 class="center main-text">OUR SHOP</h3>
+        <p class="under-text center color">Order online is easy</p>
+      </div>
+      <div class="triangle-decor">
+        <svg x="0px" y="0px" width="100%" height="15px">
+          <defs>
+            <pattern id="bottom-divider" x="0" y="0" width="15" height="15" patternUnits="userSpaceOnUse">
+              <path fill-rule="evenodd" clip-rule="evenodd" fill="#fff" d="M7.504-0.008l7.504,7.504L7.504,15L0,7.496L7.504-0.008z"></path>
+            </pattern>
+          </defs>
+          <rect x="0" y="0" width="100%" height="15" fill="url(#bottom-divider)"></rect>
+        </svg>
+      </div>
+    </div>
+    <!-- Our Shop -->
+    <div class="shop">
+      <div class="lampcontainer">
+        <div class="top">
+          <h3 class="center">REERVATION INFO</h3>
+          <p class="center tex">
+            Numerous commentators have also referred to the supposed restaurant owner's eccentric habit of touting for custom outside his establishment, dressed in aristocratic fashion and brandishing a sword
+          </p>
+        </div>
+        <div class="polit-sep">
+          <span class="polit"></span>
+        </div>
+        <!-- <select name="orderby" class="orderby">
+          <a href="#"><option value="fish" selected="selected">Fish</option></a>
+          <option value="Meat">Meat</option>
+          <option value="chicken">Chicken</option>
+          <option value="sandwiches">Sandwiches</option>
+          <option value="desserts">Desserts</option>
+          <option value="drinks">Drinks</option>
+        </select> -->
+        <div class="dropdown orderby">
+          <a class="btn btn-secondary dropdown-toggle select" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Select Dishes You Love
+          </a>
+          <div class="dropdown-menu drop" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#fish">Fish</a>
+            <a class="dropdown-item" href="#meat">Meat</a>
+            <a class="dropdown-item" href="#chicken">Chicken</a>
+            <a class="dropdown-item" href="#sandwiches">Sandwiches</a>
+            <a class="dropdown-item" href="#desserts">Desserts</a>
+            <a class="dropdown-item" href="#drinks">Drinks</a>
+          </div>
+        </div>
+        <div id="fish" class="food-cort">
+          <h2 class="food-title">Fish</h2>
+          <div class="lamp-img">
+            <img src="images/color-separator.png" alt="color-separator">
+          </div>
+          <div class="polit-sep">
+            <span class="polit"></span>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Bowl of Seafood">
+                    <img src="images/food/fish1.jpg" alt="Bowl of Seafood" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Bowl of Seafood</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$50</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Deep Fried Shrimps">
+                    <img src="images/food/fish2.jpg" alt="Deep Fried Shrimps" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Deep Fried Shrimps</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$65</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Cooked Shrimps">
+                    <img src="images/food/fish3.jpg" alt="Cooked Shrimps" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Cooked Shrimps</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$100</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Sushi">
+                    <img src="images/food/fish4.jpg" alt="Sushi" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Sushi</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$70</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Sliced Salmon">
+                    <img src="images/food/fish5.jpg" alt="Sliced Salmon" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Sliced Salmon</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$95</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Sliced Radishes">
+                    <img src="images/food/fish6.jpg" alt="Sliced Radishes" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Sliced Radishes</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$120</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="meat" style="display:none;" class="food-cort">
+          <h2 class="food-title">Meat</h2>
+          <div class="lamp-img">
+            <img src="images/color-separator.png" alt="color-separator">
+          </div>
+          <div class="polit-sep">
+            <span class="polit"></span>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Steak &amp; Creamy Mash">
+                    <img src="images/food/meat1.jpg" alt="Steak &amp; Creamy Mash" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Steak &amp; Creamy Mash</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$80</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Meat on Griddle">
+                    <img src="images/food/meat2.jpg" alt="Meat on Griddle" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Meat on Griddle</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$75</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Barbecues in Charocal Grill">
+                    <img src="images/food/meat3.jpg" alt="Barbecues in Charocal Grill" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Barbecues in Charocal Grill</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$65</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Meat Skewers">
+                    <img src="images/food/meat4.jpg" alt="Meat Skewers" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Meat Skewers</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$90</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Sliced Steak">
+                    <img src="images/food/meat5.jpg" alt="Sliced Steak" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Sliced Steak</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$50</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Beaf Steak &amp; Sause">
+                    <img src="images/food/meat6.jpg" alt="Beaf Steak &amp; Sause" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Beaf Steak &amp; Sause</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$85</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="chicken" style="display:none;" class="food-cort">
+          <h2 class="food-title">Chicken</h2>
+          <div class="lamp-img">
+            <img src="images/color-separator.png" alt="color-separator">
+          </div>
+          <div class="polit-sep">
+            <span class="polit"></span>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Bowl of Chicken">
+                    <img src="images/food/chick1.jpg" alt="Bowl of Chicken" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Bowl of Chicken</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$110</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Leg Chicken with Vegetables">
+                    <img src="images/food/chick2.jpg" alt="Leg Chicken with Vegetables" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Leg Chicken with Vegetables</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$45</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Chicken Grill">
+                    <img src="images/food/chick3.jpg" alt="Chicken Grill" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Chicken Grill</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$85</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Cooked Chicken">
+                    <img src="images/food/chick4.jpg" alt="Cooked Chicken" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Cooked Chicken</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$60</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Fried Chicken">
+                    <img src="images/food/chick5.jpg" alt="Fried Chicken" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Fried Chicken</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$85</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Soap &amp; Fried Chicken">
+                    <img src="images/food/chick6.jpg" alt="Soap &amp; Fried Chicken" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Soap &amp; Fried Chicken</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$120</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sandwiches" style="display:none;" class="food-cort">
+          <h2 class="food-title">Sandwiches</h2>
+          <div class="lamp-img">
+            <img src="images/color-separator.png" alt="color-separator">
+          </div>
+          <div class="polit-sep">
+            <span class="polit"></span>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Meat Burger &amp; Coleslaw">
+                    <img src="images/food/sand1.jpg" alt="Meat Burger &amp; Coleslaw" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Meat Burger &amp; Coleslaw</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$30</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Tomato Burger &amp; Fried Fries">
+                    <img src="images/food/sand2.jpg" alt="Tomato Burger &amp; Fried Fries" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Tomato Burger &amp; Fried Fries</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$27</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Fried &amp; Burger &amp; Sauce">
+                    <img src="images/food/sand3.jpg" alt="Fried &amp; Burger &amp; Sauce" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Fried &amp; Burger &amp; Sauce</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$30</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Beef Sandwich &amp; Fried Fries">
+                    <img src="images/food/sand4.jpg" alt="Beef Sandwich &amp; Fried Fries" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Beef Sandwich &amp; Fried Fries</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$40</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Bacon Berger">
+                    <img src="images/food/sand5.jpg" alt="Bacon Berger" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Bacon Berger</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$38</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Chicken Sandwich &amp; Slice of Lemons">
+                    <img src="images/food/sand6.jpg" alt="Chicken Sandwich &amp; Slice of Lemons" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Chicken Sandwich</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$45</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="desserts" style="display:none;" class="food-cort">
+          <h2 class="food-title">Desserts</h2>
+          <div class="lamp-img">
+            <img src="images/color-separator.png" alt="color-separator">
+          </div>
+          <div class="polit-sep">
+            <span class="polit"></span>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Brown Cake">
+                    <img src="images/food/dessert1.jpg" alt="Brown Cake" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Brown Cake</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$35</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Sliced Cake">
+                    <img src="images/food/dessert2.jpg" alt="Sliced Cake" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Sliced Cake</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$30</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Fruit Terrine">
+                    <img src="images/food/dessert3.jpg" alt="Fruit Terrine" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Fruit Terrine</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Baked Bread">
+                    <img src="images/food/dessert4.jpg" alt="Baked Bread" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Baked Bread</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$20</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Black,Brown Melted Cake">
+                    <img src="images/food/dessert5.jpg" alt="Black,Brown Melted Cake" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Black,Brown Melted Cake</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$40</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Nuts Bowl">
+                    <img src="images/food/dessert6.jpg" alt="Nuts Bowl" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Nuts Bowl</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$50</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="drinks" style="display:none;" class="food-cort">
+          <h2 class="food-title">Drinks</h2>
+          <div class="lamp-img">
+            <img src="images/color-separator.png" alt="color-separator">
+          </div>
+          <div class="polit-sep">
+            <span class="polit"></span>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Two Liquor Bottles">
+                    <img src="images/food/drink1.jpg" alt="Two Liquor Bottles" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Two Liquor Bottles</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$120</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Pear Drink">
+                    <img src="images/food/drink2.jpg" alt="Pear Drink" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Pear Drink</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$50</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Cocktail with Herb">
+                    <img src="images/food/drink3.jpg" alt="Cocktail with Herb" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Cocktail with Herb</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$55</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="vodka">
+                    <img src="images/food/drink4.jpg" alt="vodka" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Vodka</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$60</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="A Wine Drink">
+                    <img src="images/food/drink5.jpg" alt="A Wine Drink" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">A Wine Drink</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$75</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 reset">
+              <div class="img-content">
+                <div class="cshop-item">
+                  <a href="product.html" title="Fruits drinks">
+                    <img src="images/food/drink6.jpg" alt="Fruits drinks" class="respimg">
+                  </a>
+                  <h4 class="product-title">
+                    <a href="product.html">Fruits drinks</a>
+                  </h4>
+                  <ul class="product-cats">
+                    <li><a href="#">Main Meals</a></li>
+                    <li><a href="#">Hot Dishes</a></li>
+                  </ul>
+                  <div class="product-price">
+                    <span>$45</span>
+                    <a href="#">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+      <div class="lampcontainer">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <h3 class="center main-text">OUR TWITTER</h3>
+            <p class="twitter-text center">
+              <a href="#" class="color">about 13 days ago</a> i was looking at Check out 'Tomson – Ajax Showcase Photography WordPress Theme' on by @
+              <a href="#" class="color">
+                webredox themeforest.net/item/tomson-ph…
+              </a>
+            </p>
+            <a href="#" class="color twitter center">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <h3 class="center color f-35">Find us</h3>
+            <ul class="find center">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-tumblr"></i>
+                </a>
+              </li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <h3 class="center main-text">NEWSLETTER</h3>
+            <div class="subcribe-form">
+              <form id="subscribe">
+                <input class="enteremail" name="email" id="subscribe-email" placeholder="Your email address.." spellcheck="false" type="text">
+                <button type="submit" id="subscribe-button" class="subscribe-button">
+                  <i class="fa fa-envelope"></i>
+                </button>
+                <label for="subscribe-email" class="subscribe-message"></label>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="polit-sep">
+          <span class="polit"></span>
+        </div>
+        <ul class="footer-contacts center">
+          <li><a href="#">+7(111)123456789</a></li>
+          <li><a href="#">27th Brooklyn New York, NY 10065</a></li>
+          <li><a href="#">yourmail@domain.com</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="to-top-holder">
+      <div class="lampcontainer">
+        <p>
+          <span class="color"> © Lambert 2015 . </span> All rights reserved.
+        </p>
+        <div class="to-top">
+          <span>Back To Top </span>
+          <i class="fa fa-angle-double-up"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Cart Icon -->
+    <div class="subnav">
+      <a href="cart.html">
+        <i class="fa fa-shopping-cart cart-icon"></i>
+      </a>
+    </div>
+    <div class="subnav reg">
+      <a href="login.html" class="log">
+        <i class="fas fa-sign-in-alt"></i>
+      </a>
+      <a href="signup.html" class="log">
+        <i class="fas fa-user-plus"></i>
+      </a>
+    </div>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script defer src="js/all.js"></script>
+
+  </body>
+</html>
